@@ -80,11 +80,11 @@
 		A7DABD0327B2FE1B002428B1 /* ShowDetailDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABD0227B2FE1B002428B1 /* ShowDetailDriver.swift */; };
 		A7DABD0527B2FE91002428B1 /* ShowDetailStateBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABD0427B2FE91002428B1 /* ShowDetailStateBinder.swift */; };
 		A7DABD0727B2FEC6002428B1 /* ShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABD0627B2FEC6002428B1 /* ShowDetailViewController.swift */; };
-		A7DABD1327B309B5002428B1 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABD1227B309B5002428B1 /* R.generated.swift */; };
-		A7DABD1827B309E5002428B1 /* ActorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABD1427B309E5002428B1 /* ActorDetailViewController.swift */; };
-		A7DABD1927B309E5002428B1 /* ActorDetailDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABD1527B309E5002428B1 /* ActorDetailDriver.swift */; };
-		A7DABD1A27B309E5002428B1 /* ActorDetailStateBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABD1627B309E5002428B1 /* ActorDetailStateBinder.swift */; };
-		A7DABD1B27B309E5002428B1 /* ActorDetailActionBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABD1727B309E5002428B1 /* ActorDetailActionBinder.swift */; };
+		A7DABD2527B30BEA002428B1 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABD2427B30BEA002428B1 /* R.generated.swift */; };
+		A7DABD2A27B30D51002428B1 /* ActorDetailDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABD2627B30D51002428B1 /* ActorDetailDriver.swift */; };
+		A7DABD2B27B30D51002428B1 /* ActorDetailStateBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABD2727B30D51002428B1 /* ActorDetailStateBinder.swift */; };
+		A7DABD2C27B30D51002428B1 /* ActorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABD2827B30D51002428B1 /* ActorDetailViewController.swift */; };
+		A7DABD2D27B30D51002428B1 /* ActorDetailActionBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABD2927B30D51002428B1 /* ActorDetailActionBinder.swift */; };
 		CE8D6EC627327C1DFC949704 /* Pods_tmdb_rx_driver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973976C40C7DC73287C8EF44 /* Pods_tmdb_rx_driver.framework */; };
 /* End PBXBuildFile section */
 
@@ -166,11 +166,11 @@
 		A7DABD0227B2FE1B002428B1 /* ShowDetailDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailDriver.swift; sourceTree = "<group>"; };
 		A7DABD0427B2FE91002428B1 /* ShowDetailStateBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailStateBinder.swift; sourceTree = "<group>"; };
 		A7DABD0627B2FEC6002428B1 /* ShowDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailViewController.swift; sourceTree = "<group>"; };
-		A7DABD1227B309B5002428B1 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
-		A7DABD1427B309E5002428B1 /* ActorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorDetailViewController.swift; sourceTree = "<group>"; };
-		A7DABD1527B309E5002428B1 /* ActorDetailDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorDetailDriver.swift; sourceTree = "<group>"; };
-		A7DABD1627B309E5002428B1 /* ActorDetailStateBinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorDetailStateBinder.swift; sourceTree = "<group>"; };
-		A7DABD1727B309E5002428B1 /* ActorDetailActionBinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorDetailActionBinder.swift; sourceTree = "<group>"; };
+		A7DABD2427B30BEA002428B1 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		A7DABD2627B30D51002428B1 /* ActorDetailDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorDetailDriver.swift; sourceTree = "<group>"; };
+		A7DABD2727B30D51002428B1 /* ActorDetailStateBinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorDetailStateBinder.swift; sourceTree = "<group>"; };
+		A7DABD2827B30D51002428B1 /* ActorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorDetailViewController.swift; sourceTree = "<group>"; };
+		A7DABD2927B30D51002428B1 /* ActorDetailActionBinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorDetailActionBinder.swift; sourceTree = "<group>"; };
 		AF7C2B4A13E312E1FD20CF55 /* Pods-tmdb-rx-driver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tmdb-rx-driver.debug.xcconfig"; path = "Target Support Files/Pods-tmdb-rx-driver/Pods-tmdb-rx-driver.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -431,7 +431,7 @@
 		1AE109A32517A3AC001E5B01 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				A7DABD1227B309B5002428B1 /* R.generated.swift */,
+				A7DABD2427B30BEA002428B1 /* R.generated.swift */,
 			);
 			name = Resource;
 			path = "tmdb-rx-driver/Resource";
@@ -440,10 +440,10 @@
 		A79DCDA227B06058009A1457 /* ActorDetail */ = {
 			isa = PBXGroup;
 			children = (
-				A7DABD1727B309E5002428B1 /* ActorDetailActionBinder.swift */,
-				A7DABD1527B309E5002428B1 /* ActorDetailDriver.swift */,
-				A7DABD1627B309E5002428B1 /* ActorDetailStateBinder.swift */,
-				A7DABD1427B309E5002428B1 /* ActorDetailViewController.swift */,
+				A7DABD2927B30D51002428B1 /* ActorDetailActionBinder.swift */,
+				A7DABD2627B30D51002428B1 /* ActorDetailDriver.swift */,
+				A7DABD2727B30D51002428B1 /* ActorDetailStateBinder.swift */,
+				A7DABD2827B30D51002428B1 /* ActorDetailViewController.swift */,
 			);
 			path = ActorDetail;
 			sourceTree = "<group>";
@@ -620,6 +620,7 @@
 				1AE017C3251760900019F8FA /* SearchDriver.swift in Sources */,
 				1AE1095525176720001E5B01 /* Set.swift in Sources */,
 				1AE0178225175EF50019F8FA /* Person.swift in Sources */,
+				A7DABD2A27B30D51002428B1 /* ActorDetailDriver.swift in Sources */,
 				1AE1095D25176731001E5B01 /* Params.swift in Sources */,
 				1AE0178825175F280019F8FA /* TMDBApi.swift in Sources */,
 				1AE0179025175F490019F8FA /* UIStoryboard+ViewControllers.swift in Sources */,
@@ -638,6 +639,7 @@
 				1AE10937251765B6001E5B01 /* SearchResultItemViewModel.swift in Sources */,
 				1AE1096E2517809F001E5B01 /* DisposeViewController.swift in Sources */,
 				1AE017C1251760900019F8FA /* CarouselSectionCell.swift in Sources */,
+				A7DABD2B27B30D51002428B1 /* ActorDetailStateBinder.swift in Sources */,
 				1AE109432517671A001E5B01 /* Next.swift in Sources */,
 				1A8CB9B62519DC7600F25598 /* MovieDetailActionBinder.swift in Sources */,
 				1AE1095425176720001E5B01 /* RawClosure.swift in Sources */,
@@ -648,11 +650,11 @@
 				A7DABD0327B2FE1B002428B1 /* ShowDetailDriver.swift in Sources */,
 				A7DABCFE27B2FDD9002428B1 /* ShowDetailActionBinder.swift in Sources */,
 				1AE0178A25175F280019F8FA /* TMDBApiResponses.swift in Sources */,
+				A7DABD2D27B30D51002428B1 /* ActorDetailActionBinder.swift in Sources */,
 				1AE109462517671A001E5B01 /* Util.swift in Sources */,
+				A7DABD2527B30BEA002428B1 /* R.generated.swift in Sources */,
 				1AE0178325175EF50019F8FA /* Show.swift in Sources */,
-				A7DABD1B27B309E5002428B1 /* ActorDetailActionBinder.swift in Sources */,
 				1AE017CF251760900019F8FA /* LoginDriver.swift in Sources */,
-				A7DABD1827B309E5002428B1 /* ActorDetailViewController.swift in Sources */,
 				1AE109492517671A001E5B01 /* NSObject+Disposable.swift in Sources */,
 				1AE017C2251760900019F8FA /* SearchViewController.swift in Sources */,
 				1AE1095C25176731001E5B01 /* Log.swift in Sources */,
@@ -661,7 +663,6 @@
 				1AE1095B25176731001E5B01 /* Logging.swift in Sources */,
 				1AE1096125176854001E5B01 /* DefaultInitializable.swift in Sources */,
 				1AE017D1251760900019F8FA /* LoginViewController.swift in Sources */,
-				A7DABD1A27B309E5002428B1 /* ActorDetailStateBinder.swift in Sources */,
 				A7DABD0527B2FE91002428B1 /* ShowDetailStateBinder.swift in Sources */,
 				1AE017CA251760900019F8FA /* GradientImageView.swift in Sources */,
 				1AE109A92517C026001E5B01 /* SearchActionBinder.swift in Sources */,
@@ -669,12 +670,12 @@
 				1AE1095325176720001E5B01 /* Closure.swift in Sources */,
 				1AE017DA251761610019F8FA /* App.swift in Sources */,
 				1AE0178125175EF50019F8FA /* Genre.swift in Sources */,
+				A7DABD2C27B30D51002428B1 /* ActorDetailViewController.swift in Sources */,
 				A7DABD0727B2FEC6002428B1 /* ShowDetailViewController.swift in Sources */,
 				1AE017CE251760900019F8FA /* MovieDetailHeaderView.swift in Sources */,
 				1AE109452517671A001E5B01 /* Callable.swift in Sources */,
 				1AE017C7251760900019F8FA /* MovieDetailDriver.swift in Sources */,
 				1A0DE663251C81A300BF3D31 /* LoginStateBinder.swift in Sources */,
-				A7DABD1327B309B5002428B1 /* R.generated.swift in Sources */,
 				1AE0179225175F490019F8FA /* ViewModelType.swift in Sources */,
 				1A1DA8B72529C0E2008A08BE /* DiscoverViewControllerBinder.swift in Sources */,
 				1AE017BB251760900019F8FA /* DiscoverViewModel.swift in Sources */,
@@ -683,7 +684,6 @@
 				1AE017C4251760900019F8FA /* SearchCell.swift in Sources */,
 				1AE109442517671A001E5B01 /* Publicsher.swift in Sources */,
 				1A0DE661251C818B00BF3D31 /* LoginActionBinder.swift in Sources */,
-				A7DABD1927B309E5002428B1 /* ActorDetailDriver.swift in Sources */,
 				1AE1094B2517671A001E5B01 /* Bool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../tmdb-rx-driver/tmdb-rx-driver/Resource/R.generated.swift">
-   </FileRef>
-   <FileRef
       location = "group:tmdb-rx-driver.xcodeproj">
    </FileRef>
    <FileRef

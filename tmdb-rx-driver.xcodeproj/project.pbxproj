@@ -75,6 +75,7 @@
 		1AE1096E2517809F001E5B01 /* DisposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1096D2517809F001E5B01 /* DisposeViewController.swift */; };
 		1AE109A72517A461001E5B01 /* SearchStateBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE109A62517A461001E5B01 /* SearchStateBinder.swift */; };
 		1AE109A92517C026001E5B01 /* SearchActionBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE109A82517C026001E5B01 /* SearchActionBinder.swift */; };
+		A740B32F27B687CE008E3B7B /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740B32E27B687CE008E3B7B /* Content.swift */; };
 		A7DABCFB27B2FA65002428B1 /* PersonNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABCFA27B2FA65002428B1 /* PersonNew.swift */; };
 		A7DABCFE27B2FDD9002428B1 /* ShowDetailActionBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABCFD27B2FDD9002428B1 /* ShowDetailActionBinder.swift */; };
 		A7DABD0327B2FE1B002428B1 /* ShowDetailDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DABD0227B2FE1B002428B1 /* ShowDetailDriver.swift */; };
@@ -161,6 +162,7 @@
 		1AE109A82517C026001E5B01 /* SearchActionBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchActionBinder.swift; sourceTree = "<group>"; };
 		41160404C5F5FF90CD712B13 /* Pods-tmdb-rx-driver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tmdb-rx-driver.release.xcconfig"; path = "Target Support Files/Pods-tmdb-rx-driver/Pods-tmdb-rx-driver.release.xcconfig"; sourceTree = "<group>"; };
 		973976C40C7DC73287C8EF44 /* Pods_tmdb_rx_driver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tmdb_rx_driver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A740B32E27B687CE008E3B7B /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		A7DABCFA27B2FA65002428B1 /* PersonNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonNew.swift; sourceTree = "<group>"; };
 		A7DABCFD27B2FDD9002428B1 /* ShowDetailActionBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailActionBinder.swift; sourceTree = "<group>"; };
 		A7DABD0227B2FE1B002428B1 /* ShowDetailDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailDriver.swift; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 				1AE0177E25175EF50019F8FA /* Person.swift */,
 				A7DABCFA27B2FA65002428B1 /* PersonNew.swift */,
 				1AE0177F25175EF50019F8FA /* Show.swift */,
+				A740B32E27B687CE008E3B7B /* Content.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -657,6 +660,7 @@
 				1AE017CF251760900019F8FA /* LoginDriver.swift in Sources */,
 				1AE109492517671A001E5B01 /* NSObject+Disposable.swift in Sources */,
 				1AE017C2251760900019F8FA /* SearchViewController.swift in Sources */,
+				A740B32F27B687CE008E3B7B /* Content.swift in Sources */,
 				1AE1095C25176731001E5B01 /* Log.swift in Sources */,
 				1A8CB9B42519DC6800F25598 /* MovieDetailStateBinder.swift in Sources */,
 				1AE109482517671A001E5B01 /* Latest.swift in Sources */,

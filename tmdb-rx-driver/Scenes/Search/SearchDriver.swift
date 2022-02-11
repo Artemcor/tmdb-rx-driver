@@ -9,6 +9,7 @@
 import RxSwift
 import RxCocoa
 import RxSwiftExt
+import Foundation
 
 protocol SearchDriving {
     var isSwitchHidden: Driver<Bool> { get }
@@ -55,19 +56,24 @@ final class SearchDriver: SearchDriving {
         }
 
         let searchResult: Observable<[SearchResultItem]>
-        
-        switch selectedCategory {
-        case .movies:
-            searchResult = api.searchMovies(forQuery: query)
-                .map({ $0 ?? [] })
-                .mapMany(SearchResultItem.init)
-            
-        case .people:
-            searchResult = api.searchPeople(forQuery: query)
-                .map({ $0 ?? [] })
-                .mapMany(SearchResultItem.init)
-        }
-        
+
+        searchResult = api.searchMoviesAndPersons(forQuery: query)
+            .map( { (content: [Content]?) in
+                var searchResultItems = [SearchResultItem]()
+                let contents = content ?? []
+                for content in contents {
+                    switch content {
+                    case .movie(let movie):
+                        searchResultItems.append(SearchResultItem(movie: movie))
+                    case .person(let person):
+                        searchResultItems.append(SearchResultItem(person: person))
+                    case .tv(_):
+                        print("it is show")
+                    }
+                }
+                return searchResultItems
+            })
+
         searchResult
             .trackActivity(activityIndicator)
             .throttle(.milliseconds(500), scheduler: MainScheduler.instance)

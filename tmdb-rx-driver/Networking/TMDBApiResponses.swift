@@ -24,6 +24,10 @@ struct LoginResponse: Decodable {
     let success: Bool
 }
 
+struct MovieAndPersonResponse: Decodable {
+    let results: [Content]
+}
+
 struct AuthTokenResponse: Decodable {
     let requestToken: String
     
